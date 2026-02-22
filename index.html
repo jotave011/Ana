@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Nosso dia 24</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="Logo-Netflix.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha Lista</a>
+        </nav>
+
+    </header>
+
+    <section class="banner">
+    <div class="conteudo">
+        <p class="titulo">  Para meu Amor </p>
+        <p class="detalhes">
+            <span>24/02/2026 <i class="fa-regular fa-heart" style="color: rgb(218, 19, 19);"></i></span>
+            <span class="stars">
+            </span>
+            <p class="descricao">
+                Nosso amor não precisa ser perfeito, porque ele é verdadeiro. A gente se entende no dificuldades e se diverte nas coisas mais simples. Já passamos por momentos bons e o todos eles, estar ao seu lado fez tudo valer a pena.
+                Você é meu porto seguro, minha paz em dias turbulentos e minha companhia preferida em qualquer situação. Com você aprendi que amor é parceria, é cuidado, é crescer junto. E mesmo quando a vida tenta nos testar nosso amor se fortalece.
+                Eu te admiro pela sua força, pela sua calma e pela forma como você cuida de mim e do nosso relacionamento. Não quero prometer perfeição, mas quero estar aqui, te amar cada dia mais e construir um futuro cheio de memórias bonitas ao seu lado.
+                Feliz Nosso Dia, 24/02/2023. Te amo com tudo o que sou.
+            </p>
+            <div class="botes">
+            <button> <i class="fa-solid fa-play"></i> Continuar</button>
+            <button> <i class="fa-solid fa-star"></i> Favorito</button>
+        </p>
+    </div> 
+
+    <section class="momentos">
+        <h2>Nossos Momentos</h2>
+
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./IMG01.jpg"></div>
+    <div class="swiper-slide"><img src="./IMG02.png"></div>
+    <div class="swiper-slide"><img src="./img04.png"></div>
+    <div class="swiper-slide"><img src="./img5.png"></div>
+    <div class="swiper-slide"><img src="./img6.png"></div>
+    <div class="swiper-slide"><img src="./IMG01.jpg"></div>
+    <div class="swiper-slide"><img src="./IMG02.png"></div>
+    <div class="swiper-slide"><img src="./img04.png"></div>
+    <div class="swiper-slide"><img src="./img5.png"></div>
+    <div class="swiper-slide"><img src="./img6.png"></div>
+    <div class="swiper-slide"><img src="./IMG01.jpg"></div>
+    <div class="swiper-slide"><img src="./IMG02.png"></div>
+    <div class="swiper-slide"><img src="./img04.png"></div>
+    <div class="swiper-slide"><img src="./img5.png"></div>
+    <div class="swiper-slide"><img src="./img6.png"></div>
+    ...
+  </div>
+
+</div>
+
+    </section>
+
+    <footer>
+        2026 - João Vitor V. da Silva
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        slidePerView: 2,
+        spacebetween: 10,
+        loop:true,
+        breakpoints: {
+            600:{
+                loop:true,
+                slidePerView: 3,
+                spacebetween: 15,
+            },
+            900: {
+                loop:true,
+                slidePerView: 4,
+                spacebetween: 40,
+            }
+        }
+
+        });
+    </script>
+    
+</body>
+</html>
